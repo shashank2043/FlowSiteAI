@@ -10,7 +10,7 @@ import { useScrollAnimation } from '../../hooks/useScrollAnimation';
 const PricingSection = () => {
     const [ref, isVisible] = useScrollAnimation();
 
-    const whatsappNumber = '8886113839';
+    const whatsappNumber = '918886113839';
     const whatsappMessage = encodeURIComponent('Hi! I\'d like to get a custom quote for FlowSite AI services.');
     const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
